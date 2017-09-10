@@ -67,7 +67,7 @@ public class GameManager implements GameGUI, Observer
                 currentTurn = playerX;
                 playerTurn.setText("Player Turn: X");
             }
-
+ 
             if (GameManager.lastGameButtonPressed != null)
             {
                 GameManager.lastGameButtonPressed.setEnabled(true);
