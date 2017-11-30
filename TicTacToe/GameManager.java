@@ -8,7 +8,7 @@ public class GameManager implements GameGUI, Observer
     private static GameButton lastGameButtonPressed;
     
     private Player playerX; 
-    private Player playerO;
+    private Player playerO; 
     
     private boolean winStatus;    
     private int intName; 
